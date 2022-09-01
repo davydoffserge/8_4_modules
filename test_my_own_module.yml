@@ -1,0 +1,8 @@
+---
+- name: Test module my_own_module
+  hosts: localhost
+  tasks:
+    - name: Testing
+      my_own_module:
+        path: './my_test_file.txt'
+        content: 'Testing playbook content'

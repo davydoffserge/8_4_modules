@@ -1,0 +1,21 @@
+---
+  - name: Test module my_own_module
+    hosts: localhost
+    connection: local
+    collections:
+      - ./my_own_namespace/my_own_collection
+    vars:
+      - file_path: './my_test_file.txt'
+      - file_content: 'Testing playbook content'
+    roles:
+      - ny_own_role
+
+
+#---
+#- name: Test module my_own_module
+#  hosts: localhost
+#  tasks:
+#    - name:
+#      my_own_module:
+#        path: './my_test_file.txt'
+#        content: 'Testing playbook content'

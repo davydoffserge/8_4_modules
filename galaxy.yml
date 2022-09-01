@@ -1,0 +1,17 @@
+namespace: my_own_namespace
+name: local
+version: 1.0.0
+readme: README.md
+authors:
+- Sergey Davydov <serge2davydoff@gmail.com>
+description: Simple collection made as a home assignment
+license:
+- MIT
+license_file: ''
+tags: []
+dependencies: {}
+repository: https://github.com/davydoffserge/8_4_modules
+documentation: None
+homepage: None
+issues: None
+build_ignore: []

@@ -1,0 +1,1 @@
+{"invocation": {"module_args": {"content": "redefine content", "path": "my_test_file.txt"}}, "changed": true}
